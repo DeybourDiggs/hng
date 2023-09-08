@@ -14,7 +14,7 @@ app.get('/api',  (req, res) => {
 
 
     const githubRepoUrl = 'https://github.com/DeybourDiggs/hng';
-    const githubFileUrl = `${githubRepoUrl}/blob/main/file_name.ext`;
+    const githubFileUrl = `${githubRepoUrl}/blob/main/app.js`;
 
     const jsonResponse ={
         slack_name,
