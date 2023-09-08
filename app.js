@@ -39,7 +39,7 @@ app.get("/api", (req, res) => {
     utc_time: utcTime,
     track,
     github_file_url: githubFileUrl,
-    github_source_url: githubRepoUrl,
+    github_repo_url: githubRepoUrl,
     status_code: 200,
   };
 
