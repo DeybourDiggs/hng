@@ -21,8 +21,8 @@ app.get('/api',  (req, res) => {
         current_day: currentDay,
         utc_time: utcTime,
         track,
-        github_file_url: githubRepoUrl,
-        github_source_url: githubFileUrl,
+        github_file_url: githubFileUrl,
+        github_source_url: githubRepoUrl,
         status_code: 200
     }
 
