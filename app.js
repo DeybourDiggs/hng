@@ -9,11 +9,11 @@ app.get('/api',  (req, res) => {
     const {slack_name, track} = req.query;
 
     const currentDate = new Date();
-    const currentDay = currentDate.toLocaleString('en-US', {weekday: 'long'})
+    const currentDay = currentDate.toLocaleString('en-us',{weekday: 'long'})
     const utcTime = currentDate.toISOString();
 
 
-    const githubRepoUrl = 'https://github.com/DeybourDiggs/hng';
+    const githubRepoUrl = 'https://github.com/DeybourDiggs/hng.git';
     const githubFileUrl = `${githubRepoUrl}/blob/main/app.js`;
 
     const jsonResponse ={
