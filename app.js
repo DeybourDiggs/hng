@@ -25,7 +25,7 @@ app.get("/api", (req, res) => {
     .padStart(2, "0")}:${currentDate
     .getUTCSeconds()
     .toString()
-    .padStart(2, "0")}Z;`;
+    .padStart(2, "0")}Z`;
 
 //   const githubRepoUrl = "https://github.com/DeybourDiggs/hng";
 //   const githubFileUrl = `${githubRepoUrl}/blob/main/app.js`;
